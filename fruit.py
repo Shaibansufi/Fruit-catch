@@ -12,6 +12,7 @@ class Fruit(Turtle):
 
     def create_fruit(self):
             self.shape("apple")
+            self.shapesize(stretch_wid=20,stretch_len=20)
             self.penup()
             self.speed("fastest")
             self.refresh()
