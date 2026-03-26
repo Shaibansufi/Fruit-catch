@@ -34,7 +34,7 @@ screen.onkeypress(basket.Right,"Right")
 while game_is_on:
     fruit1.move()
     # fruit2.move()
-    time.sleep(0.1)
+    time.sleep(1)
     screen.update()
     
 
